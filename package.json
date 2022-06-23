@@ -1,5 +1,5 @@
 {
-  "name": "swarmplus-backend",
+  "name": "nestjs-template",
   "version": "0.0.1",
   "description": "",
   "author": "daichi.suyama",
@@ -33,7 +33,6 @@
     "rxjs": "^7.2.0"
   },
   "devDependencies": {
-    "@funee-inc/digdig-types": "^0.0.6",
     "@nestjs/cli": "^8.0.0",
     "@nestjs/schematics": "^8.0.0",
     "@nestjs/testing": "^8.0.0",
