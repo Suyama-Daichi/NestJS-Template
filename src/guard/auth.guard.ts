@@ -13,6 +13,7 @@ export class AuthGuard implements CanActivate {
       throw new UnauthorizedException()
     })
     if (!decordedToken.uid) throw new UnauthorizedException()
+    request['uid'] = decordedToken.uid
     console.log('decordedToken', decordedToken)
     return true
   }
